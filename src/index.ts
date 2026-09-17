@@ -350,6 +350,7 @@ export async function detectFromStorage(
 
 export default class GogPlugin implements ClientPlugin {
   metadata = {
+    apiVersion: 2,
     id: "drop-store-gog",
     name: "GOG Galaxy",
     version: "0.1.0",
